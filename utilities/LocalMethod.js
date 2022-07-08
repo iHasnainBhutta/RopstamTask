@@ -8,7 +8,7 @@ export async function getData(key, parse = false) {
   return parse && data ? JSON.parse(data) : data;
 }
 export async function setData(key, data, isSringify = false) {
-  //   console.log(data);
+    // console.log(">",data);
 
   const _data = isSringify ? JSON.stringify(data) : data;
   return await AsyncStorage.setItem(key, _data);

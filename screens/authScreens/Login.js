@@ -49,7 +49,7 @@ const Login = (props) => {
             "user",
             {
               access_token: res.data.data.access_token,
-              // ...res.data.data.user,
+              ...res.data.data.user,
             },
             true
           ).then(() => {});
