@@ -6,10 +6,7 @@ Install NPM or Yarn for dependencies
 npm install or yarn install  
 
 Project Run Command: expo start  
-
-Email: hassan.zafar@ropstam.com  
-
-Password: 12345678  
+ 
 
 Thank you
 
